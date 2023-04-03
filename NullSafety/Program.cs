@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// https://learn.microsoft.com/en-us/dotnet/csharp/nullable-references
 
 string message = "Hello, World!";
 int length = message.Length; // dereferencing "message"
@@ -17,6 +16,7 @@ if (input?.Length > 2)
 }
 
 Console.WriteLine("message2?.length: " + message2?.Length); // NullReferenceException
+
 int? number = 14593;
 Console.WriteLine(number);
 number = null;
