@@ -1,4 +1,5 @@
 ﻿// https://learn.microsoft.com/en-us/dotnet/csharp/nullable-references
+// https://csvelocity.wordpress.com/2021/08/27/c-null-tip/
 
 string message = "Hello, World!";
 int length = message.Length; // dereferencing "message"
